@@ -1,10 +1,4 @@
-const express = require('express');
-const routes = require('./routers/routes');
-const app = express();
-
-app.use(express.json());
-app.use(routes);
+const app = require('./app.js');
 
 app.listen(3000);
 
-module.exports = app;

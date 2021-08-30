@@ -1,6 +1,0 @@
-{ 
-    "gentilico" : "portuguesa",
-    "nome_pais" : "Portugal",
-    "nome_pais_int" : "Portugal",
-    "sigla" : "PT"
-}
