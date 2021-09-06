@@ -5,6 +5,7 @@ class ProjectController {
     async getInfoByName(req, res){
         
         try{
+            console.log(req.userId);
             const name = req.body.name;
             const formattedName = capitalize(name); 
             // 
@@ -61,7 +62,7 @@ class ProjectController {
                 Frase: userAffir
             }
 
-            console.log(formattedName);
+           
             return res.status(200).send(response);
 
                 }catch(err){
