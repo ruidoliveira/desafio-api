@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = require('./routers/index.js');
 const bodyParser = require('body-parser');
-
+// teste
 class App{
     constructor(){
         this.server = express();
